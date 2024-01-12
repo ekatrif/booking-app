@@ -41,7 +41,6 @@ export default async function Search({
   }
 }) {
   const restaurants = await fetchRestaurants(searchParams.city.toLowerCase());
-  console.log({ restaurants })
   return (
     <>
       <Header />
